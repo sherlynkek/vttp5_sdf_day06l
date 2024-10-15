@@ -38,15 +38,7 @@ Enable user input for commands in the client program.
 
 All the server logic must be written in a class name “BaccaratEngine.java”
 
-| Command   | Client | Server |
-| :-------: | :----: | :----: |
-| Login kenneth 100     | Send login kenneth 100 to
-the server        | Parse the command and
-create a file named
-"kenneth.db" with the
-value "100" as the content
-of the file.     |
-| Bet 50     | Send bet|50 to the server         | Parse the command and
-allow client to place a bet
-of 50 on the current
-session     |
+| Command           | Client         | Server |
+| :---------------: | :------------: | :----: |
+| Login kenneth 100 | Send login kenneth 100 to the server | Parse the command and create a file named "kenneth.db" with the value "100" as the content of the file.|
+| Bet 50            | Send bet|50 to the server | Parse the command and allow client to place a bet of 50 on the current session |
