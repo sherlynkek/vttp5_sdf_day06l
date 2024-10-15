@@ -40,7 +40,7 @@ All the server logic must be written in a class name “BaccaratEngine.java”
 
 | Command   | Client | Server |
 | :-------: | :----: | :----: |
-| Login kenneth 100     | Send login|kenneth|100 to
+| Login kenneth 100     | Send login|'kenneth'|100 to
 the server        | Parse the command and
 create a file named
 "kenneth.db" with the
