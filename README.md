@@ -40,3 +40,42 @@ All the server logic must be written in a class name “BaccaratEngine.java”
 
 | Command           | Client         | Server |
 | :---------------: | :------------: | :----: |
+
+
+
+# Task 3
+In the client program, you are required to create a CSV file to keep track of the
+winning games. 
+
+Hint : game_history.csv
+
+Each row in the CSV file can only record up to 6 games, and there can be multiple
+rows.
+
+In Baccarat, when both the Player and Banker hands have the same total points, it
+results in a tie game. In this scenario, neither the Player nor the Banker wins, and
+bets on the Player and Banker are returned to the respective players. However, there
+is a specific bet called the "Tie" bet, which wins if both hands tie. The payout for the
+Tie bet is higher than the payouts for the Player and Banker bets, typically around 8
+to 1 or 9 to 1, but it varies depending on the casino.
+
+    B,P,P,P,B,B
+    B,B,D,P,B,B
+    B,P,B,P,B,B
+    B,D,P,P,B,B
+    B,P,P,P,B,P
+
+# Task 4
+Write at least two test cases for the *BaccaratEngine.java* class.
+
+# Task 5
+Create an HTML table that reads a CSV file and publish it as a website, you can use
+JavaScript to read the CSV file and then dynamically generate the HTML table.
+
+Place all three files (*index.html*, *script.js*, and *game_history.csv*) in the same
+directory.
+
+When you open the *index.html* file in a web browser, it will read the
+*game_history.csv* file and display its contents as an HTML table on the webpage.
+
+
